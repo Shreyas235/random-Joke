@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sedan", serif;
+}
+
+body {
+  background-color: #ea3c3c;
+  height: calc(100vh - 1px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: black;
+  width: 60%;
+  min-height: 70vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px rgba(28, 27, 27, 0.692);
+}
+
+span {
+  font-size: 100px;
+  text-align: center;
+  display: block;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 30px;
+  margin: 30px 0;
+}
+
+button {
+  margin: 0 auto;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #fab22e;
+  border: none;
+  font-weight: 900;
+}
